@@ -1,15 +1,11 @@
-# Annual Rebalance for Max Sharpe
-
-This is a script that annually rebalances a portfolio of five ETFs to maximise for their Sharpe ratio. FYI, this is still a work in progress and there are a couple of improvements that I would like to do. I've also tried my best to document my code where possible, so feel free to play around with it and see if there are any improvements that you would like to suggest. 
-
-Here are the test results:
-![Performance](https://i.ibb.co/ctWJrq0/Figure-1.png)
-
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+# Foobar
+An adaptive regime estimation script used to estimate which regime markets are currently in, based on Maewal and Bock (2018). Please note that this script only contributes to the calculation of the return exponent, α, which is used to estimate whether the Maewal and Bock modified risk parity algorithm should be positioned Para-Momentum or Contra-Momentum. 
 
 ## Contact
 If you would like to get in touch, my email is aleksandras.v.liauska@bath.edu.
 
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
 ## License
-[GNU AGPLv3](https://choosealicense.com/licenses/agpl-3.0/)
+[MIT](https://choosealicense.com/licenses/mit/)
