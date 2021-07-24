@@ -1,4 +1,4 @@
-# Foobar
+# Adaptive Regime Estimation
 An adaptive regime estimation script used to estimate which regime markets are currently in, based on Maewal and Bock (2018). Please note that this script only contributes to the calculation of the return exponent, α, which is used to estimate whether the Maewal and Bock modified risk parity algorithm should be positioned Para-Momentum or Contra-Momentum. 
 
 ## Contact
