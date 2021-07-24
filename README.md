@@ -1,5 +1,5 @@
 # Adaptive Regime Estimation
-An adaptive regime estimation script used to estimate which regime markets are currently in, based on Maewal and Bock (2018). Please note that this script only contributes to the calculation of the return exponent, α, which is used to estimate whether the Maewal and Bock modified risk parity algorithm should be positioned Para-Momentum or Contra-Momentum. 
+This code is based on [Maewal and Bock (2018)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3272080), and calculates which regime the markets currently are in. Please note that this is not the full Modified Risk Parity algorithm, but only contributes to the estimation of the return exponent, α, as described in the paper.
 
 ## Contact
 If you would like to get in touch, my email is aleksandras.v.liauska@bath.edu.
