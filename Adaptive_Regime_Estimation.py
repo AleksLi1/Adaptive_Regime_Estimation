@@ -145,5 +145,5 @@ print('Average market return: {:.2%}'.format(market_annual_return))
 # Market Sharpe
 market_sharpe = prices['Market Returns'].mean() / prices['Market Returns'].std()
 market_sharpe_annualised = (250**0.5) * market_sharpe
-print('Portfolio Sharpe ratio: {:.2}'.format(market_sharpe_annualised))
+print('Market Sharpe ratio: {:.2}'.format(market_sharpe_annualised))
 print('------------------------------------------')
