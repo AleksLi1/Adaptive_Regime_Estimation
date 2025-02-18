@@ -14,7 +14,7 @@ gamma = 1.5
 starting_capital = 10000
 
 # Gather and Process Ticker Data
-prices = yf.download(tickers=tickers, start=start, end=end)['Adj Close'].dropna(axis=0)
+prices = yf.download(tickers=tickers, start=start, end=end)['Close'].dropna(axis=0)
 prices['SPY_Daily_Ret'] = np.log(prices['SPY']/prices['SPY'].shift(1))
 prices['TLT_Daily_Ret'] = np.log(prices['TLT']/prices['TLT'].shift(1))
 
